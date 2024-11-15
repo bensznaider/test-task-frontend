@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Test Task",
+  title: "The Country Info App",
 };
 
 export default function RootLayout({ children }) {
