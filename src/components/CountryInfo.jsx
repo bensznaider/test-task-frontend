@@ -90,7 +90,7 @@ export default function CountryInfo({
           }}
           onClick={() => setSelectedCountry(null)}
         >
-          BACK
+          BACK TO MAIN LIST
         </button>
       </div>
       <span
@@ -109,7 +109,7 @@ export default function CountryInfo({
         />
       </span>
 
-      <p
+      <div
         style={{
           fontSize: "18px",
           margin: "2rem 0",
@@ -137,7 +137,7 @@ export default function CountryInfo({
             ))}
           </ol>
         )}
-      </p>
+      </div>
 
       <h3>Population Over Time</h3>
       <Line data={chartData} options={chartOptions} />
